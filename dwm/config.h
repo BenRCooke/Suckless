@@ -3,7 +3,7 @@
 #include <X11/XF86keysym.h>
 
 /* appearance */
-static const unsigned int borderpx       = 0;   /* border pixel of windows */
+static const unsigned int borderpx       = 4;   /* border pixel of windows */
 static const int corner_radius           = 10;
 static const unsigned int snap           = 32;  /* snap pixel */
 static const unsigned int gappih         = 20;  /* horiz inner gap between windows */
@@ -34,13 +34,13 @@ static char c000000[]                    = "#000000"; // placeholder value
 
 static char normfgcolor[]                = "#df95b9";
 static char normbgcolor[]                = "#050311";
-static char normbordercolor[]            = "#9c6881";
+static char normbordercolor[]            = "#631d86";
 static char normfloatcolor[]             = "#db8fd9";
 
 static char selfgcolor[]                 = "#df95b9";
 static char selbgcolor[]                 = "#E0276F";
-static char selbordercolor[]             = "#df959n";
-static char selfloatcolor[]              = "#df95b9";
+static char selbordercolor[]             = "#7f25ad";
+static char selfloatcolor[]              = "#9c6881";
 
 static char titlenormfgcolor[]           = "#bbbbbb";
 static char titlenormbgcolor[]           = "#222222";
